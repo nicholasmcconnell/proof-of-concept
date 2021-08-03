@@ -1,0 +1,3 @@
+# proof-of-concept
+
+A repository contaning proof of concept applications for Java, Spring, Springboot, JavaScript, React, etc...
