@@ -1,6 +1,6 @@
 "use strict";
+// export * as test99 from ;
 exports.__esModule = true;
-exports.exportClass2 = exports.exportClass = void 0;
 var exportClass = /** @class */ (function () {
     function exportClass() {
     }
@@ -9,13 +9,10 @@ var exportClass = /** @class */ (function () {
     };
     return exportClass;
 }());
-exports.exportClass = exportClass;
-var exportClass2 = /** @class */ (function () {
-    function exportClass2() {
-    }
-    exportClass2.prototype.print = function () {
-        console.log('This is prnting also 222');
-    };
-    return exportClass2;
-}());
-exports.exportClass2 = exportClass2;
+exports["default"] = exportClass;
+// export default class exportClass2 {
+//     name: 'Jackson';
+//     print() {
+//         console.log('This is prnting also 222')
+//     }
+// }
